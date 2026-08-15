@@ -16,28 +16,28 @@ export default function Events() {
       category: 'Competition',
       description: 'Flagship startup and innovation challenge featuring judges, pitch battles and winning teams.',
       image: '/images/events/sell-it-2026.jpg',
-      highlightUrl: 'https://www.instagram.com/startupgrindkiit/'
+      highlightUrl: 'https://www.instagram.com/p/Dak19PkhJ0k/'
     },
     {
       title: 'IGNITE BOOTCAMP',
       category: 'Workshop',
       description: 'A learning experience designed to take participants from idea to execution.',
       image: '/images/events/ignite-bootcamp.jpg',
-      highlightUrl: 'https://www.instagram.com/startupgrindkiit/'
+      highlightUrl: 'https://www.instagram.com/p/DVBglKsD8do/'
     },
     {
       title: 'Fireside Chat: From Curiosity to Commitment',
       category: 'Founder Talk',
       description: 'A conversation on what actually changes when you start building.',
       image: '/images/events/fireside-chat.jpg',
-      highlightUrl: 'https://www.instagram.com/startupgrindkiit/'
+      highlightUrl: 'https://www.instagram.com/p/DTesmGADxC1/'
     },
     {
       title: 'AI Panel Discussion',
       category: 'Panel',
       description: 'Exploring how artificial intelligence is reshaping markets and work.',
       image: '/images/events/ai-panel.jpg',
-      highlightUrl: 'https://www.instagram.com/startupgrindkiit/'
+      highlightUrl: 'https://www.instagram.com/p/DWGkYEDEotP/?img_index=1'
     }
   ];
 

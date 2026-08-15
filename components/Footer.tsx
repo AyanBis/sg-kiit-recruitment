@@ -1,6 +1,6 @@
 'use client';
 
-import { AtSign, Send, Mail } from 'lucide-react';
+import { AtSign, Briefcase, MessageCircle, Mail, Phone } from 'lucide-react';
 import ImageFallback from './ImageFallback';
 
 export default function Footer() {
@@ -8,14 +8,14 @@ export default function Footer() {
 
   const links = [
     { icon: AtSign, href: 'https://www.instagram.com/startupgrindkiit/', label: 'Instagram', name: 'Instagram' },
-    { icon: Send, href: 'https://forms.gle/3u4Kuog4NUVCny7y5', label: 'Apply', name: 'Apply' },
-    { icon: Mail, href: 'https://chat.whatsapp.com/JwKKsnLqkRmIsfIDTS2Bft?s=cl&p=a&mlu=4', label: 'WhatsApp', name: 'Join WhatsApp' }
+    { icon: Briefcase, href: 'https://www.linkedin.com/company/startupgrind-kiit/', label: 'LinkedIn', name: 'LinkedIn' },
+    { icon: MessageCircle, href: 'https://chat.whatsapp.com/JwKKsnLqkRmIsfIDTS2Bft?s=cl&p=a&mlu=4', label: 'WhatsApp', name: 'WhatsApp' }
   ];
 
   return (
     <footer className="bg-black border-t border-primary-cyan/10 py-12 px-6 lg:px-12">
       <div className="max-w-7xl mx-auto">
-        <div className="grid md:grid-cols-2 gap-12 mb-8">
+        <div className="grid md:grid-cols-3 gap-8 mb-8">
           {/* Brand */}
           <div>
             <div className="mb-4 h-12">
@@ -33,7 +33,28 @@ export default function Footer() {
             </p>
           </div>
 
-          {/* Links */}
+          {/* Contact */}
+          <div>
+            <h3 className="text-white font-sora font-semibold mb-4">Contact</h3>
+            <div className="space-y-3">
+              <a
+                href="mailto:kiit.startupgrind@gmail.com"
+                className="flex items-center gap-3 text-gray-400 hover:text-primary-cyan transition-colors group"
+              >
+                <Mail size={18} className="flex-shrink-0" />
+                <span className="text-sm">kiit.startupgrind@gmail.com</span>
+              </a>
+              <a
+                href="tel:+919149898202"
+                className="flex items-center gap-3 text-gray-400 hover:text-primary-cyan transition-colors group"
+              >
+                <Phone size={18} className="flex-shrink-0" />
+                <span className="text-sm">+91 9149898202</span>
+              </a>
+            </div>
+          </div>
+
+          {/* Social Links */}
           <div className="flex flex-col md:items-end">
             <h3 className="text-white font-sora font-semibold mb-4">Connect</h3>
             <div className="flex gap-6">
