@@ -18,10 +18,11 @@ export default function Navbar() {
   }, []);
 
   const navItems = [
-    { name: 'About', href: '#about' },
-    { name: 'What We Do', href: '#what-we-do' },
-    { name: 'Events', href: '#events' },
-    { name: 'Why Join', href: '#why-join' },
+    { name: 'About', href: '/#about' },
+    { name: 'What We Do', href: '/#what-we-do' },
+    { name: 'Events', href: '/#events' },
+    { name: 'Why Join', href: '/#why-join' },
+    { name: 'Recruitment', href: '/recruitment' },
   ];
 
   return (

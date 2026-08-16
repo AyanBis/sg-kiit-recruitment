@@ -19,14 +19,14 @@ export default function WhoShouldApply() {
   ];
 
   return (
-    <section ref={ref} className="py-24 px-6 lg:px-12 bg-white">
+    <section ref={ref} className="py-24 px-6 lg:px-12 bg-black">
       <div className="max-w-5xl mx-auto text-center">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={isInView ? { opacity: 1, y: 0 } : {}}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="font-sora text-4xl lg:text-5xl font-bold text-background-dark mb-12">
+          <h2 className="font-sora text-4xl lg:text-5xl font-bold text-white mb-12">
             Who Should Apply?
           </h2>
 
@@ -48,7 +48,7 @@ export default function WhoShouldApply() {
             initial={{ opacity: 0, y: 20 }}
             animate={isInView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.6, delay: 0.4 }}
-            className="text-background-dark/80 text-lg lg:text-xl leading-relaxed max-w-3xl mx-auto"
+            className="text-gray-300 text-lg lg:text-xl leading-relaxed max-w-3xl mx-auto"
           >
             You don&apos;t need a startup, a perfect resume or years of experience.
             Curiosity, initiative and the willingness to learn matter more.
